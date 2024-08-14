@@ -25,7 +25,7 @@ def send_file(client_socket, filepath):
         print("Arquivo não encontrado.")
 
 def start_client():
-    host = 192.168.0.0
+    host = "192.168.0.11"
     port = 58729
 
     client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
